@@ -27,7 +27,7 @@ The training process involves several key steps:
             subgraph Late_Fusion
                 IE --> IFC[Image FC + ReLU<br/>512/768/1024-dim]
                 TE --> TFC[Text FC + ReLU<br/>512/768/1024-dim]
-                IFC --> ADD{"+"}
+                IFC --> ADD{+}
                 TFC --> ADD
                 ADD --> LF[FC Layer<br/>512/768/1024-dim]
             end
