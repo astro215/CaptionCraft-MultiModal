@@ -76,7 +76,5 @@ To set up the project, follow these steps:
    pip install -r requirements.txt
    ```
 
-## Usage
-After setting up the project, you can use it by following these instructions:
-- Detailed usage instructions will be added here based on the project's specific functionality and usage patterns.
+
 
